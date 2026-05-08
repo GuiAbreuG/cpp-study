@@ -1,2 +1,12 @@
-# studying-journey-cpp
-Repository for my C++ studies and practice! Includes exercises for fundamentals, OOP, DSA, STL and small projects!
+# C++ Journey
+
+Repository for my C++ studies and practice.
+
+Includes:
+- Fundamentals
+- STL
+- DSA
+- OOP
+- Small projects
+
+Goal: track my learning progress in C++.
