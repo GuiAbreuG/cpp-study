@@ -1,4 +1,6 @@
 
+    // Programa para filtrar números por categoria
+    
     #include <iostream>
     using namespace std;
     int main() {
