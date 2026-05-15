@@ -1,4 +1,7 @@
-#include <iostream>
+
+    // Exercício de encontrar o maior e o menor valor do array!
+
+    #include <iostream>
     using namespace std;
     
     int main() {
