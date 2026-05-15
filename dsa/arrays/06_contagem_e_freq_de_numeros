@@ -1,0 +1,82 @@
+
+    // Programa que conta elementos maiores que um valor Y, determinado pelo user
+    // E que informa a quantia de aparições de um número digitado pelo user
+    // 15.05.26
+
+    #include <iostream>
+    using namespace std;
+    int main () {
+    
+        int tamanhoDoArray;
+        
+        cout << "\n Digite o tamanho do array! O tamanho é: ";
+        cin >> tamanhoDoArray;
+        
+        while (tamanhoDoArray > 10 || tamanhoDoArray < 0) {
+            cout << "     Tamanho Inválido (Maior que 10, menor que zero). Tente Novamente! ";
+            cout << "\n     O novo tamanho do array é: ";
+            cin >> tamanhoDoArray;
+            cout << "\n";
+        }
+
+        int array[6];
+        
+        for (int i = 0; i < tamanhoDoArray; i++ ) {
+            cout << "   Digite o valor do vetor, cujo índice é " << i << ": ";
+            cin >> array[i];
+        }
+    
+        cout << "\n O vetor é: (";
+        
+        for (int i = 0; i < tamanhoDoArray; i++ ) {
+            cout << array[i];
+            
+            if (i < tamanhoDoArray - 1) {
+                cout << ", ";
+            }
+        }
+        cout << ")" << endl << endl;
+        
+        int valorEscolhido;
+        int elemMaioresQueValorEscolhido = 0;
+        
+        cout << " Digite um valor para verificar quantos são maiores que ele: ";
+        cin >> valorEscolhido;
+        
+        for (int i = 0; i < tamanhoDoArray; i++ ) {
+            if (array[i] > valorEscolhido) { 
+                elemMaioresQueValorEscolhido++; 
+            }
+        }
+        
+        cout << "  A quantia de elementos maiores que o valor escolhido (" << valorEscolhido << ") é: "
+        << elemMaioresQueValorEscolhido << endl << endl;
+    
+        // -------------------------------
+        
+        int valorPraProcurar;
+        
+        int quantDeValoresEncontrados = 0;
+        bool encontrou = false;
+        
+        cout << " Digite o valor a ser procurado: ";
+        cin >> valorPraProcurar;
+        
+        for (int i = 0; i < tamanhoDoArray; i++ ) {
+            if (array[i] == valorPraProcurar) {
+                quantDeValoresEncontrados++;
+                cout << "\n O valor tá no no índice: " << i;
+                encontrou = true;
+            }
+        }
+        
+            cout << "\n     O valor aparece: " << quantDeValoresEncontrados << " vez(es)! ";
+             
+            if (!encontrou) {
+                cout << "\n\n Valor não encontrado.";
+            }
+        
+        return 0;
+    }
+
+
