@@ -1,5 +1,5 @@
 
-    // programa que mostra valores do array com formatacao
+    // programa de array interativo com o usuario
 
     #include <iostream>
     using namespace std;
