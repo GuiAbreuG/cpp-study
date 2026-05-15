@@ -1,6 +1,6 @@
 # Arrays
 
-Exercises and problems related to arrays in C++.
+Exercises and problems related to arrays in C++. 
 
 Topics:
 - Basic Operations
