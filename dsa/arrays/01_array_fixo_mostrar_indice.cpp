@@ -1,4 +1,6 @@
-    
+
+    // Programa que mostra valores e seus indices
+
     #include <iostream>
     using namespace std;
     int main() { 
