@@ -1,5 +1,7 @@
 
-#include <iostream>
+    // programa que mostra valores do array com formatacao
+
+    #include <iostream>
     using namespace std;
     int main() {
         
