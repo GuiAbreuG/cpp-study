@@ -1,4 +1,4 @@
-# C++ Journey
+# C++ Journey!
 
 Repository for my C++ studies and practice.
 
