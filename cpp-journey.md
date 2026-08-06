@@ -6,7 +6,7 @@ Includes:
 - Fundamentals
 - STL
 - DSA
-- OOP
+- OOP 
 - Small projects
 
 Goal: track my learning progress in C++.
