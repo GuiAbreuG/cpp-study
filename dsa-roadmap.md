@@ -10,7 +10,7 @@ Futurely, it may include exercises on the following topics:
 - Linked Lists (Singly, Doubly and Circular Linked Lists)
 - Stacks
 - Queues (Simple, Circular and Deque (Double-ended Queue))
-- Hash-Based Structures
+- Hash-Based Structures 
 - Trees
 - Graphs
 - Sorting Algorithms
