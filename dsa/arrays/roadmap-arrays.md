@@ -10,6 +10,6 @@ Topics:
 - Problem Solving:
   - Elements greater than average
   - Range queries (between two values)
-  - Duplicate detection
+  - Duplicate detection 
 
 And more, as soon as I progress through exercises!
